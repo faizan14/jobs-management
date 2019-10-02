@@ -1,0 +1,99 @@
+{
+    "Jobs": [
+        {
+            "position": 0,
+            "company": "Company 1",
+            "title": "JavaScript",
+            "datePosted": "Mon Sep 02 2019",
+            "status": "open"
+        },
+        {
+            "position": 1,
+            "company": "Company 2",
+            "title": "TypeScript",
+            "datePosted": "Mon Sep 02 2019",
+            "status": "closed"
+        },
+        {
+            "position": 2,
+            "company": "Company 3",
+            "title": "Java",
+            "datePosted": "Mon Sep 02 2019",
+            "status": "open"
+        },
+        {
+            "position": 3,
+            "company": "Company 4",
+            "title": "Angular",
+            "datePosted": "Mon Sep 02 2019",
+            "status": "closed"
+        },
+        {
+            "position": 4,
+            "company": "Company 5",
+            "title": "J2EE",
+            "datePosted": "Mon Sep 02 2019",
+            "status": "open"
+        }
+    ],
+    "ShortListed": [
+        {
+            "id": 0,
+            "name": "Raju",
+            "currentCompany": "PLM Inc",
+            "experience": "6 years",
+            "ctc": "10L",
+            "appliedCompany": "Company 1"
+        },
+        {
+            "id": 1,
+            "name": "Abhay",
+            "currentCompany": "Systel",
+            "experience": "10 years",
+            "ctc": "15L",
+            "appliedCompany": "Company 1"
+        },
+        {
+            "id": 2,
+            "name": "Prateek",
+            "currentCompany": "ABC",
+            "experience": "5 years",
+            "ctc": "9L",
+            "appliedCompany": "Company 2"
+        },
+        {
+            "id": 3,
+            "name": "Ankur",
+            "currentCompany": "DEF",
+            "experience": "4 years",
+            "ctc": "8L",
+            "appliedCompany": "Company 2"
+        }
+    ],
+    "Interview": [
+        {
+            "id": 0,
+            "candidateId": 0,
+            "interview": "Round 1",
+            "interviewer": "ABC",
+            "date": "Tue Sep 10 2019",
+            "result": "selected"
+        },
+        {
+            "id": 1,
+            "candidateId": 0,
+            "interview": "Round 2",
+            "interviewer": "DEF",
+            "date": "Tue Sep 10 2019",
+            "result": "selected"
+        },
+        {
+            "id": 0,
+            "candidateId": 0,
+            "interview": "HR Round",
+            "interviewer": "GHI",
+            "date": "Thu Sep 12 2019",
+            "result": "offered"
+        }
+    ]
+}

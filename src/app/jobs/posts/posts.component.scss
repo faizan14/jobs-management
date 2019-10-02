@@ -1,0 +1,19 @@
+.table-wrapper {
+  width: 100%;
+  padding: 9px 15px;
+  display: inline-block;
+}
+
+table {
+    width: calc(100% - 30px);
+  }
+
+.inner-table-wrapper {
+  width: 100%;
+  padding: 9px 15px;
+  display: inline-block;
+}
+// .inner-table-wrapper table {
+//   width: 100%;
+// }
+

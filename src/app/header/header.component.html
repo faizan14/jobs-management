@@ -1,0 +1,18 @@
+<mat-card>
+    <mat-card-content>
+        <section class="example-section">
+            <label>Status</label>
+            <mat-checkbox class="example-margin" [(ngModel)]="open">Open</mat-checkbox>
+            <mat-checkbox class="example-margin" [(ngModel)]="close">Closed</mat-checkbox>
+        </section>
+        <mat-form-field class="title-input">
+            <input matInput placeholder="Job Title" [(ngModel)]="title">
+        </mat-form-field>
+        <button mat-raised-button (click)="search()" [disabled]="!(open || close || title.length)">Search</button>
+        <button mat-raised-button (click)="clear()" [disabled]="!disabled">Clear</button>
+    </mat-card-content>
+</mat-card>
+
+<div *ngIf="sendInfo" >
+    <job-posts [searchResult]="sendInfo"></job-posts>
+</div>

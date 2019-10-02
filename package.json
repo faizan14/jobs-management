@@ -3,25 +3,30 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "npm install && npm install --global --save json-server && ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "json-server": "json-server --watch  db.json --port 3004"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.8",
+    "@angular/cdk": "~8.2.1",
     "@angular/common": "~8.2.8",
     "@angular/compiler": "~8.2.8",
     "@angular/core": "~8.2.8",
     "@angular/forms": "~8.2.8",
+    "@angular/material": "^8.2.1",
     "@angular/platform-browser": "~8.2.8",
     "@angular/platform-browser-dynamic": "~8.2.8",
     "@angular/router": "~8.2.8",
+    "hammerjs": "^2.0.8",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.9.1",
+    "json-server": "0.5.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.6",
